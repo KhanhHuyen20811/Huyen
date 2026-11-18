@@ -1,0 +1,64 @@
+.tieude {
+    /* CSS styles for the tieude class */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    color: #f4f5f9;
+    background-color: #970df9;
+
+
+
+}
+#id {
+    /* CSS styles for the id element */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    color: #f4f5f9;
+    background-color: #0d87f9;
+}
+#id p{ 
+    /* Additional styles for the id element */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+ul > li {
+    /* CSS styles for list items */
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px;
+    
+}
+ul li:first-child {
+    /* CSS styles for the first list item */
+    font-weight: bold;
+    color: #f4f5f9;
+    background-color: #0df9a1;
+}
+p:last-child{
+    /* CSS styles for the last paragraph */
+    font-style: italic;
+    color: #f4f5f9;
+    background-color: #f90d6b;
+}
+#id ul li:nth-child(2) {
+    /* CSS styles for the second list item within the id element */
+    color: #f4f5f9;
+    background-color: #f9d00d;
+}
+ p::first-letter {
+    /* CSS styles for the first letter of paragraphs */
+    font-size: 24px;
+    font-weight: bold;
+    color: #f4f5f9;}
+    #id p::after {
+        /* CSS styles for the after pseudo-element of paragraphs within the id element */
+        content: " - This is an additional text.";
+        font-size: 14px;
+        color: #f4f5f9;
+        background-color: #04fe7d;
+    }
+    
